@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/swcrc",
+  "sourceMaps": true,
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "decorators": true,
+      "dynamicImport": true
+    },
+    "transform": {
+      "legacyDecorator": true,
+      "decoratorMetadata": true
+    },
+    "baseUrl": "./",
+    "paths": {
+      "@/src/*": ["src/*"],
+      "@/tests/*": ["tests/*"]
+    },
+    "target": "esnext"
+  },
+  "module": {
+    "type": "commonjs",
+    "resolveFully": true
+  },
+  "minify": false
+}
